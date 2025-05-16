@@ -1,6 +1,7 @@
 # K8S-500-Prod-Issues
 
 📘 Scenario #1: Zombie Pods Causing NodeDrain to Hang
+
 Category: Cluster Management
 Environment: K8s v1.23, On-prem bare metal, Systemd cgroups
 Scenario Summary: Node drain stuck indefinitely due to unresponsive terminating pod.
